@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Hesap Makinesi</string>
+
+    <string name="rakam_sifir">0</string>
+    <string name="rakam_bir">1</string>
+    <string name="rakam_iki">2</string>
+    <string name="rakam_uc">3</string>
+    <string name="rakam_dort">4</string>
+    <string name="rakam_bes">5</string>
+    <string name="rakam_altı">6</string>
+    <string name="rakam_yedi">7</string>
+    <string name="rakam_sekiz">8</string>
+    <string name="rakam_dokuz">9</string>
+    <string name="rakam_nokta">.</string>
+
+    <string name="islem_topla">+</string>
+    <string name="islem_cikar">-</string>
+    <string name="islem_carp">×</string>
+    <string name="islem_bol">÷</string>
+    <string name="islem_hesapla">=</string>
+
+    <string name="islem_temizle">C</string>
+    <string name="islem_parantez">()</string>
+    <string name="islem_ust">^</string>
+    <string name="islem_negatif_pozitif">+/-</string>
+
+    <string name="metin">0</string>
+</resources>

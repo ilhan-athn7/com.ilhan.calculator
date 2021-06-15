@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_temizle"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_temizle"
+                android:text="@string/islem_temizle"
+                android:textSize="30sp"
+                app:backgroundTint="#dd1100" />
+
+            <Button
+                android:id="@+id/btn_parantez"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_parantez"
+                android:text="@string/islem_parantez"
+                android:textSize="30sp"
+                app:backgroundTint="@color/buton" />
+
+            <Button
+                android:id="@+id/btn_ust"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_ust"
+                android:text="@string/islem_ust"
+                android:textSize="30sp"
+                app:backgroundTint="@color/buton" />
+
+            <Button
+                android:id="@+id/btn_bol"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_bol"
+                android:text="@string/islem_bol"
+                android:textSize="30sp"
+                app:backgroundTint="@color/buton" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="2dp">
+
+            <Button
+                android:id="@+id/btn_yedi"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_yedi"
+                android:text="@string/rakam_yedi"
+                android:textSize="30sp"
+                app:backgroundTint="@color/buton" />
+
+            <Button
+                android:id="@+id/btn_sekiz"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_sekiz"
+                android:text="@string/rakam_sekiz"
+                android:textSize="30sp"
+                app:backgroundTint="@color/buton" />
+
+            <Button
+                android:id="@+id/btn_dokuz"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_dokuz"
+                android:text="@string/rakam_dokuz"
+                android:textSize="30sp"
+                app:backgroundTint="@color/buton" />
+
+            <Button
+                android:id="@+id/btn_carp"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_carp"
+                android:text="@string/islem_carp"
+                android:textSize="30sp"
+                app:backgroundTint="@color/buton" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+            <Button
+                android:id="@+id/btn_dort"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_dort"
+                android:text="@string/rakam_dort"
+                android:textSize="30sp"
+                app:backgroundTint="@color/buton" />
+
+            <Button
+                android:id="@+id/btn_bes"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_bes"
+                android:text="@string/rakam_bes"
+                android:textSize="30sp"
+                app:backgroundTint="@color/buton" />
+
+            <Button
+                android:id="@+id/btn_altı"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_alti"
+                android:text="@string/rakam_altı"
+                android:textSize="30sp"
+                app:backgroundTint="@color/buton" />
+
+            <Button
+                android:id="@+id/btn_cikar"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_cikar"
+                android:text="@string/islem_cikar"
+                android:textSize="30sp"
+                app:backgroundTint="@color/buton" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+            <Button
+                android:id="@+id/btn_bir"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_bir"
+                android:text="@string/rakam_bir"
+                android:textSize="30sp"
+                app:backgroundTint="@color/buton" />
+
+            <Button
+                android:id="@+id/btn_iki"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_iki"
+                android:text="@string/rakam_iki"
+                android:textSize="30sp"
+                app:backgroundTint="@color/buton" />
+
+            <Button
+                android:id="@+id/btn_uc"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_uc"
+                android:text="@string/rakam_uc"
+                android:textSize="30sp"
+                app:backgroundTint="@color/buton" />
+
+            <Button
+                android:id="@+id/btn_topla"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_topla"
+                android:text="@string/islem_topla"
+                android:textSize="30sp"
+                app:backgroundTint="@color/buton" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp">
+
+            <Button
+                android:id="@+id/btn_neg_poz"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_poz_neg"
+                android:text="@string/islem_negatif_pozitif"
+                android:textSize="30sp"
+                app:backgroundTint="@color/buton" />
+
+            <Button
+                android:id="@+id/btn_sifir"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_sifir"
+                android:text="@string/rakam_sifir"
+                android:textSize="30sp"
+                app:backgroundTint="@color/buton" />
+
+            <Button
+                android:id="@+id/btn_nokta"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_nokta"
+                android:text="@string/rakam_nokta"
+                android:textSize="30sp"
+                app:backgroundTint="@color/buton" />
+
+            <Button
+                android:id="@+id/btn_hesapla"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/buton_arkaplan"
+                android:onClick="giris_hesapla"
+                android:text="@string/islem_hesapla"
+                android:textSize="30sp"
+                app:backgroundTint="#009900" />
+        </TableRow>
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/txt_veri"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:autofillHints="false"
+        android:gravity="end"
+        android:text="@string/metin"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout2"
+        app:layout_constraintEnd_toStartOf="@+id/btn_sil"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_sil"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="3dp"
+        android:layout_weight="1"
+        android:background="@drawable/buton_arkaplan"
+        android:onClick="giris_sil"
+        app:backgroundTint="@color/buton"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout2"
+        app:layout_constraintEnd_toEndOf="@+id/tableLayout2"
+        app:srcCompat="@drawable/buton_sil" />
+</androidx.constraintlayout.widget.ConstraintLayout>
