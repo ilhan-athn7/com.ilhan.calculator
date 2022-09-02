@@ -1,7 +1,7 @@
 # com.ilhan.calculator
 Basic android app development experiment
 
-### Referances
+### References
 https://www.youtube.com/watch?v=B5b-7uDtUp4
 
 https://www.youtube.com/watch?v=Asc0gl1uOYo
